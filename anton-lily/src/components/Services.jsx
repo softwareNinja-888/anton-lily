@@ -55,7 +55,7 @@ const serviceList = {
 function ServiceCard({name='Service Name',img,description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur velit laboriosam quod provident, delectus est.'}){
     return (
         <>
-            <div className="flex flex-col justify-center items-center gap-0  py-4">
+            <div className="flex flex-col justify-center items-center gap-3 h-60 py-4">
                 <div className="flex justify-center mb-4 ">
                     {img}
                 </div>
@@ -69,7 +69,7 @@ export function Services() {
 
     return (
         <>
-            <div className="grid grid-cols-3 mx-auto gap-x-10 gap-y-10 py-20 ">
+            <div id="services" className="grid grid-cols-3 mx-auto gap-x-10 gap-y-10 py-20 ">
                {Object.values(serviceList).map(service=>(
                     <ServiceCard name={service.name} img={service.icon} description={service.description}/>
                ))}

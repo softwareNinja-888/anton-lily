@@ -23,7 +23,7 @@ function GalleryCard({img='/11.avif',name="Coast Villa"}){
 export function Gallery() {
     return ( 
         <>
-            <div className="text-4xl font-quickSand uppercase text-center mb-16">Gallery</div>
+            <div id="gallery" className="text-4xl font-quickSand uppercase text-center mb-16">Gallery</div>
             <div className="grid grid-cols-1 md:grid-cols-2 mx-auto justify-center items-center w-11/12 lg:w-11/12 gap-18 md:gap-3">
 
                 <GalleryCard name="Coast Villa" img="/11.avif"/>

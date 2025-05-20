@@ -20,7 +20,7 @@ export function Footer() {
     return (
         <>
             <Map/>
-            <div className="bg-gray-300">
+            <div id="contact"  className="bg-gray-300">
                 <div className="grid grid-cols-1 gap-y-6 mx-auto w-10/12 py-20">
                     <div className="uppercase text-5xl font-quickSand text-center">Contact us</div>
                     <div className="flex flex-row justify-center gap-16 text-base font-raleway">

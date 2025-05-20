@@ -20,7 +20,7 @@ export function ToDo() {
     ]
     return (
         <>
-            <div className="flex flex-col gap-10 py-26">
+            <div id="see & do" className="flex flex-col gap-10 py-26">
                 <div className="uppercase text-center text-2xl font-quickSand">Things to Do</div>
                 <div className="grid grid-cols-3 mx-auto gap-x-0 gap-y-10 ">
                     {todo.map(item=>(
