@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { Footer } from "./components/Footer"
 import { Gallery } from "./components/Gallery"
 import { Header } from "./components/Header"
 import { Socials } from "./components/helper/Socials"
@@ -20,6 +21,7 @@ function App() {
         <ToDo/>
         <Review/>
       </div>
+      <Footer/>
       <Socials/>
     </>
   )
